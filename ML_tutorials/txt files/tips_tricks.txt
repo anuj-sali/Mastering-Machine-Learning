@@ -5,3 +5,17 @@ data science field and in general.
 https://towardsdatascience.com/create-a-maintainable-data-pipeline-with-prefect-and-dvc-1d691ea5bcea
 
 - use prefect library for logging
+
+
+
+
+2. KAGGLE api usage:
+USING CLI:
+! kaggle datasets download -d uciml/iris
+
+USING python script:
+from kaggle.api.kaggle_api_extended import KaggleApi
+api = KaggleApi()
+api.authenticate()
+api.dataset_download_file('uciml/iris',file_name='Iris.csv',path=raw_data_file_path)
+#see these dataset details etc from dataset url 
