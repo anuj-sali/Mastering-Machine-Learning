@@ -1,0 +1,7 @@
+Hello, this .txt file lists out useful links which focus on improving Quality code practices in 
+data science field and in general.
+
+1. Building efficient data pipelines:
+https://towardsdatascience.com/create-a-maintainable-data-pipeline-with-prefect-and-dvc-1d691ea5bcea
+
+- use prefect library for logging
