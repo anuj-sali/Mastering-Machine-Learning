@@ -19,3 +19,15 @@ api = KaggleApi()
 api.authenticate()
 api.dataset_download_file('uciml/iris',file_name='Iris.csv',path=raw_data_file_path)
 #see these dataset details etc from dataset url 
+
+
+
+
+3. How to do efficient EDA?
+
+matplotlib.pyplot() ---> plt 
+use:
+f, ax = plt.subplots(figsize=(18,8))
+
+df.plot.element(  give ax= ax)  same axis as defined above.
+element --> hist
