@@ -31,3 +31,10 @@ f, ax = plt.subplots(figsize=(18,8))
 
 df.plot.element(  give ax= ax)  same axis as defined above.
 element --> hist
+
+PYTHON TIPS:
+1. pd.set_option:  can set to see all rows & cols in a df.
+2. NaN--> blank or missing values are given these. Also NaN will be written.
+3. from itertools import Counter
+4. string list/dict to list/dict: ast.literal_eval() & json.loads()
+5. Getting key from value: list(dict_.keys())[list(dict_.values().index(value))]
