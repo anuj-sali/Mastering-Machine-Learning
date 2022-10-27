@@ -1,6 +1,4 @@
 import os
-import prefect
-from prefect import task,flow
 import zipfile
 from kaggle.api.kaggle_api_extended import KaggleApi
 import logging
